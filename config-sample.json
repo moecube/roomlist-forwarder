@@ -1,0 +1,11 @@
+{
+	"port": 7923,
+	"ssl": {
+		"cert": "./ssl/fullchain.pem",
+		"key": "./ssl/privkey.pem"
+	},
+	"servers": [
+		"wss://senya.mycard.moe:7923",
+		"wss://senya.mycard.moe:8923"
+	]
+}

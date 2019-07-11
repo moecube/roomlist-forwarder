@@ -1,0 +1,22 @@
+{
+  "name": "roomlist-forwarder",
+  "version": "1.0.0",
+  "description": "Roomlist Forwarder",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moecube/roomlist-forwarder.git"
+  },
+  "author": "Nanahira",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/moecube/roomlist-forwarder/issues"
+  },
+  "homepage": "https://github.com/moecube/roomlist-forwarder#readme",
+  "dependencies": {
+    "ws": "^1.1.5"
+  }
+}
