@@ -7,5 +7,6 @@
 	"servers": [
 		"wss://senya.mycard.moe:7923",
 		"wss://senya.mycard.moe:8923"
-	]
+	],
+	"compat": true
 }

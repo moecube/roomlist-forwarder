@@ -1,3 +1,4 @@
+"use strict";
 const ws = require("ws");
 const url = require("url");
 const https = require("https");
@@ -30,6 +31,13 @@ function concat_rooms(filter) {
 	var all_rooms = [];
 	for (var source of sources) {
 		all_rooms = all_rooms.concat(source.rooms[filter]);
+	}
+	if (config.compat) { 
+		for (var i in all_rooms) { 
+			if (all_rooms[i].enable_priority !== true && all_rooms[i].enable_priority !== false) { 
+				all_rooms[i].enable_priority = (all_rooms[i].duel_rule === 4);
+			}
+		}
 	}
 	return all_rooms;
 }
