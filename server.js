@@ -34,8 +34,8 @@ function concat_rooms(filter) {
 	}
 	if (config.compat) { 
 		for (var i in all_rooms) { 
-			if (all_rooms[i].duel_rule) { 
-				all_rooms[i].enable_priority = (all_rooms[i].duel_rule !== 4);
+			if (all_rooms[i].options && all_rooms[i].options.duel_rule) { 
+				all_rooms[i].options.enable_priority = (all_rooms[i].options.duel_rule !== 4);
 			}
 		}
 	}
