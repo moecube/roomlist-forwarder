@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/moecube/roomlist-forwarder#readme",
   "dependencies": {
-    "ws": "^1.1.5"
+    "ws": "^3.3.1"
   }
 }
